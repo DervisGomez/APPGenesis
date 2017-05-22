@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris_3"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/llMaterial"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="6dp"
+            android:background="@color/gris_1">
+            <Button
+                android:id="@+id/ivMaterial"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/firm"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:padding="8dp"
+            android:background="@color/gris_1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:id="@+id/tvDocumentoFirma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/gris_1"/>
+            <TextView
+                android:id="@+id/tvNombreFirma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gris_1"
+                android:gravity="center_vertical"
+                android:padding="4dp"/>
+            <TextView
+                android:id="@+id/tvCorreoFirma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gris_1"
+                android:gravity="center_vertical"
+                android:padding="4dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="6dp"
+            android:background="@color/gris_1">
+            <Button
+                android:id="@+id/btnVerFirma"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/ojo"  />
+            <Button
+                android:id="@+id/btnBorrarFirma"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/delete"  />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

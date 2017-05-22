@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_2"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:divider="#00ffffff" />
+
+    <RelativeLayout
+        android:id="@+id/ordenFormularioOrdenar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/azul_4t">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/azul_4"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ordenar Ordenes"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:textSize="19dp"/>
+
+            <Spinner
+                android:id="@+id/spOrdenOrdenarPor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:background="@color/gris_2"
+                android:layout_margin="8dp"></Spinner>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="right" >
+
+                <Button
+                    android:id="@+id/btnOrdenOrdenarRegresar"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/cir_azul3"
+                    android:drawableRight="@drawable/regresar"
+                    android:padding="8dp"
+                    android:textColor="@color/gris_1" />
+
+                <Button
+                    android:id="@+id/btnOrdenOrdenarAccion"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/cir_verde2"
+                    android:drawableLeft="@drawable/guardar"
+                    android:padding="11dp"
+                    android:textColor="@color/gris_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnOrdenOrdenarRegresar"
+                    android:layout_alignBottom="@+id/btnOrdenOrdenarRegresar"
+                    android:layout_toRightOf="@+id/btnOrdenOrdenarRegresar"
+                    android:text="Regresar"
+                    android:textColor="@color/gris_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnOrdenOrdenarAccion"
+                    android:layout_alignBottom="@+id/btnOrdenOrdenarAccion"
+                    android:layout_toLeftOf="@+id/btnOrdenOrdenarAccion"
+                    android:text="Ordenar"
+                    android:textColor="@color/gris_1" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ordenFormularioFiltrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/azul_4t">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/azul_4"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Filtrar ordenes por:"
+                        android:gravity="center_horizontal"
+                        android:layout_marginBottom="16dp"
+                        android:textSize="19dp"/>
+                    <EditText
+                        android:id="@+id/etOrdenFiltrarOrden"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"
+                        android:padding="8dp"
+                        android:inputType="number"
+                        android:textSize="20dp"
+                        android:hint="Numero de Orden"/>
+                    <Spinner
+                        android:id="@+id/spOrdenFiltrarEstado"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textSize="20dp"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"></Spinner>
+                    <EditText
+                        android:id="@+id/etOrdenFiltrarContrato"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"
+                        android:padding="8dp"
+                        android:textSize="20dp"
+                        android:inputType="number"
+                        android:hint="Contrato"/>
+                    <Spinner
+                        android:id="@+id/spOrdenFiltrarTipoD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textSize="20dp"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"></Spinner>
+                    <EditText
+                        android:id="@+id/etOrdenFiltrarTipo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"
+                        android:padding="8dp"
+                        android:textSize="20dp"
+                        android:inputType="number"
+                        android:hint="Numero de Documento"/>
+                    <EditText
+                        android:id="@+id/etOrdenFiltrarTipoT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"
+                        android:padding="8dp"
+                        android:textSize="20dp"
+                        android:inputType="number"
+                        android:hint="Tipo Trabajo"/>
+                    <EditText
+                        android:id="@+id/etOrdenFiltrarBarrio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"
+                        android:padding="8dp"
+                        android:textSize="20dp"
+                        android:inputType="text"
+                        android:hint="Barrio"/>
+                    <EditText
+                        android:id="@+id/etOrdenFiltrarRuto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"
+                        android:padding="8dp"
+                        android:textSize="20dp"
+                        android:inputType="number"
+                        android:hint="Ruta"/>
+                    <Spinner
+                        android:id="@+id/spOrdenFiltrarEfectividad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:textSize="20dp"
+                        android:background="@color/gris_2"
+                        android:layout_margin="8dp"></Spinner>
+                    <Button
+                        android:id="@+id/btnVerTodas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="Ver Todas"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="bottom" >
+
+                <Button
+                    android:id="@+id/btnOrdenFiltrarRegresar"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/cir_azul3"
+                    android:drawableRight="@drawable/regresar"
+                    android:padding="8dp"
+                    android:textColor="@color/gris_1" />
+
+                <Button
+                    android:id="@+id/btnOrdenFiltrarAccion"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/cir_verde2"
+                    android:drawableLeft="@drawable/guardar"
+                    android:padding="11dp"
+                    android:textColor="@color/gris_1" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnOrdenFiltrarRegresar"
+                    android:layout_alignBottom="@+id/btnOrdenFiltrarRegresar"
+                    android:layout_toRightOf="@+id/btnOrdenFiltrarRegresar"
+                    android:text="Regresar"
+                    android:textColor="@color/gris_1" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnOrdenFiltrarAccion"
+                    android:layout_alignBottom="@+id/btnOrdenFiltrarAccion"
+                    android:layout_toLeftOf="@+id/btnOrdenFiltrarAccion"
+                    android:text="Filtrar"
+                    android:textColor="@color/gris_1" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

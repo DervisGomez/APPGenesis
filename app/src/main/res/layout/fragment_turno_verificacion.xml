@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gris_2"
+        android:orientation="vertical"
+        tools:context="org.app.atenciondeturnos.verificacion.FragmentVerificacion">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/verde_2"
+        android:weightSum="3"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnNuevaVerifiacionTurno"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text="Agregar"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text=""
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text=""
+            />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginTop="64dp">
+
+        <ListView
+            android:id="@+id/lvFirmaMostrarTurno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00ffffff">
+
+        </ListView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/formularioVerificacionTurno"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/azul_4"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nueva Firma"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_marginBottom="4dp"
+                android:textSize="19dp"/>
+            <Button
+                android:id="@+id/btnLimpiarFirmaTurno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limpiar"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llFimaTurno"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_margin="6dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <EditText
+            android:id="@+id/etCodigoUsuarioTurno"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gris_1"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:inputType="number"
+            android:hint="Codigo Usuario"/>
+
+        <EditText
+            android:id="@+id/etNombreUsuarioTurno"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gris_1"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:inputType="text"
+            android:hint="Nombre Usuario"/>
+        <EditText
+            android:id="@+id/etTurnoTurno"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gris_1"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:focusable="false"
+            android:editable="false"
+            android:inputType="text"
+            android:hint="Turno"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="right" >
+
+            <Button
+                android:id="@+id/btnRegresarFirmaTurno"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/cir_azul3"
+                android:drawableRight="@drawable/regresar"
+                android:padding="8dp"
+                android:textColor="@color/gris_1" />
+
+            <Button
+                android:id="@+id/btnGuardarFirmaTurno"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="6dp"
+                android:background="@drawable/cir_verde2"
+                android:drawableLeft="@drawable/guardar"
+                android:padding="11dp"
+                android:textColor="@color/gris_1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnRegresarFirmaTurno"
+                android:layout_alignBottom="@+id/btnRegresarFirmaTurno"
+                android:layout_toRightOf="@+id/btnRegresarFirmaTurno"
+                android:text="Regresar" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnGuardarFirmaTurno"
+                android:layout_alignBottom="@+id/btnGuardarFirmaTurno"
+                android:layout_toLeftOf="@+id/btnGuardarFirmaTurno"
+                android:text="Guardar"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    </RelativeLayout>

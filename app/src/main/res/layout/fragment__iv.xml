@@ -1,0 +1,179 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_2"
+    tools:context="org.app.atenciondeordenes.fragment_iv_materiales.Fragment_IV">
+
+    <!-- TODO: Update blank fragment layout -->
+        <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/verde_2"
+        android:weightSum="3"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnNuevoMaterial"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text="Agregar"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text=""
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text=""
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginTop="64dp">
+
+        <ListView
+            android:id="@+id/lvMaterialMostrar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00ffffff">
+
+        </ListView>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/formularioMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/azul_4t">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/gris_4"
+            android:padding="6dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/azul_4"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nuevo Material"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="19dp"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/etNombreMaterial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gris_2"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:inputType="text"
+                    android:hint="Nombre"/>
+
+
+                <EditText
+                    android:id="@+id/etCantidadMaterial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gris_2"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:inputType="numberDecimal"
+                    android:hint="Cantidad"/>
+                <TextView
+                    android:id="@+id/tvUnidadMedidaMaterial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gris_1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp"/>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_gravity="right" >
+
+                    <Button
+                        android:id="@+id/btnRegresarMaterial"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/cir_azul3"
+                        android:drawableRight="@drawable/regresar"
+                        android:padding="8dp"
+                        android:textColor="@color/gris_1" />
+
+                    <Button
+                        android:id="@+id/btnGuardarMaterial"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/cir_verde2"
+                        android:drawableLeft="@drawable/guardar"
+                        android:padding="11dp"
+                        android:textColor="@color/gris_1" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/btnRegresarMaterial"
+                        android:layout_alignBottom="@+id/btnRegresarMaterial"
+                        android:layout_toRightOf="@+id/btnRegresarMaterial"
+                        android:text="Regresar"
+                        android:textColor="@color/gris_1" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/btnGuardarMaterial"
+                        android:layout_alignBottom="@+id/btnGuardarMaterial"
+                        android:layout_toLeftOf="@+id/btnGuardarMaterial"
+                        android:text="Guardar"
+                        android:textColor="@color/gris_1" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

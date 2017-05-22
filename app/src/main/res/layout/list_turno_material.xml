@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris_3"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/llMaterialTurno"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="8dp"
+            android:background="@color/gris_1">
+            <Button
+                android:id="@+id/ivMaterialTurno"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/mate"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:padding="8dp"
+            android:background="@color/gris_1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:id="@+id/tvIdMaterialMostrarTurno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/gris_1"/>
+            <TextView
+                android:id="@+id/tvNombreMaterialMostrarTurno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/gris_1"
+                android:gravity="center_vertical"
+                android:padding="4dp"/>
+            <TextView
+                android:id="@+id/tvCantidadMaterialMostralTurno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/gris_1"
+                android:gravity="center_vertical"
+                android:padding="4dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="8dp"
+            android:background="@color/gris_1">
+            <Button
+                android:id="@+id/btnBorrarMaterialTurno"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/delete"  />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

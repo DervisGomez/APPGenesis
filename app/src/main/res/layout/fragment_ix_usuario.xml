@@ -1,0 +1,188 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_2"
+    tools:context="org.app.atenciondeordenes.fragment_i_detalle.Fragment_I">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/verde_2"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGenerarCobroU"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text="Guardar" />
+
+
+    </LinearLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:padding="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/gris_1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:background="@color/gris_4"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textStyle="bold"
+                        android:background="@color/gris_1"
+                        android:padding="8dp"
+                        android:text="Generar Cobro:"/>
+                    <RadioGroup
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/rgGenerarCobroUsuario"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:background="@color/gris_1">
+                        <RadioButton
+                            android:layout_width="0dp"
+                            android:id="@+id/rbGcUSi"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="SI"
+                            />
+                        <RadioButton
+                            android:id="@+id/rbGcUNo"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="NO"
+                            />
+                    </RadioGroup>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:background="@color/gris_1"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:background="@color/gris_1"
+                        android:padding="8dp"
+                        android:text="Responsable"/>
+                    <Spinner
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:id="@+id/spResponsableUsuario"
+                        android:gravity="right"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:id="@+id/llItemUsuario"
+                android:background="@color/gris_1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:text="Contrato"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:id="@+id/tvContratoUsuario"
+                        android:layout_height="match_parent"
+                        android:hint="Ingrese Numero de Contrato"
+                        android:textSize="14sp"
+                        android:layout_weight="2"
+                        android:layout_margin="1dp"
+                        android:padding="8dp"
+                        android:background="@color/gris_1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/gris_1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:background="@color/gris_1"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:text="Total"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvTotalUsuario"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:layout_margin="1dp"
+                        android:padding="8dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/cobroContainerUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

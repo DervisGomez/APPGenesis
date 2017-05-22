@@ -1,0 +1,488 @@
+[
+  {
+    "causcons": 1,
+    "causdesc": "Fuga en Cajilla de Medidor",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 2,
+    "causdesc": "Tubo Roto",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 3,
+    "causdesc": "Domiciliaria Obstruida o Dañada",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 4,
+    "causdesc": "Fuga en Válvula",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 5,
+    "causdesc": "Hidrante en Mal Estado o con Fuga",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 6,
+    "causdesc": "Válvula Inoperable o Dañada",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 7,
+    "causdesc": "Pozo de Inspección Rebosando",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 8,
+    "causdesc": "Falta Tapa en Pozo de Inspección",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 9,
+    "causdesc": "Sumidero Tapado",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 10,
+    "causdesc": "Hundimiento o Deterioro de Vía por Filtración",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 11,
+    "causdesc": "Excavación Pendiente por Tapar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 12,
+    "causdesc": "Andén Concreto por Reparar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 13,
+    "causdesc": "Andén Tableta por Reparar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 14,
+    "causdesc": "Vía Concreto por Reparar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 15,
+    "causdesc": "Vía Asfalto por Reparar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 16,
+    "causdesc": "Escombros por Recoger",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 17,
+    "causdesc": "Predio sin Servicio",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 18,
+    "causdesc": "Pozo Colmatado",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 19,
+    "causdesc": "Falta Rejilla en Sumidero",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 20,
+    "causdesc": "Deficiencias de Servicio por Bajos Niveles",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 21,
+    "causdesc": "Deficiencias de Servicio por Alta Turbidez (Baja Producción o Suspensión)",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 22,
+    "causdesc": "Deficiencias de Servicio por Fallas en Turno",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 23,
+    "causdesc": "Deficiencias de Servicio por Empalmes de Tubería",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 24,
+    "causdesc": "Deficiencias de Servicio por Daños en la Red",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 25,
+    "causdesc": "Agua Contaminada (Olor, Grasa, Sabor, Turbidez, etc)",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 26,
+    "causdesc": "Visita de Viabilidad de redes ALC",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 27,
+    "causdesc": "Emergencia Ambiental",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 08:42:45",
+    "cocacaus": []
+  },
+  {
+    "causcons": 28,
+    "causdesc": "Fuga en Cajilla de Medidor",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 29,
+    "causdesc": "Tubo Roto",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 30,
+    "causdesc": "Domiciliaria Obstruida o Dañada",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 31,
+    "causdesc": "Fuga en Válvula",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 32,
+    "causdesc": "Hidrante en Mal Estado o con Fuga",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 33,
+    "causdesc": "Válvula Inoperable o Dañada",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 34,
+    "causdesc": "Pozo de Inspección Rebosando",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 35,
+    "causdesc": "Falta Tapa en Pozo de Inspección",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 36,
+    "causdesc": "Sumidero Tapado",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 37,
+    "causdesc": "Hundimiento o Deterioro de Vía por Filtración",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 38,
+    "causdesc": "Excavación Pendiente por Tapar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 39,
+    "causdesc": "Andén Concreto por Reparar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:01",
+    "cocacaus": []
+  },
+  {
+    "causcons": 40,
+    "causdesc": "Andén Tableta por Reparar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 41,
+    "causdesc": "Vía Concreto por Reparar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 42,
+    "causdesc": "Vía Asfalto por Reparar",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 43,
+    "causdesc": "Escombros por Recoger",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 44,
+    "causdesc": "Predio sin Servicio",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 45,
+    "causdesc": "Pozo Colmatado",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 46,
+    "causdesc": "Falta Rejilla en Sumidero",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 47,
+    "causdesc": "Deficiencias de Servicio por Bajos Niveles",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 48,
+    "causdesc": "Deficiencias de Servicio por Alta Turbidez (Baja Producción o Suspensión)",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 49,
+    "causdesc": "Deficiencias de Servicio por Fallas en Turno",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 50,
+    "causdesc": "Deficiencias de Servicio por Empalmes de Tubería",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 51,
+    "causdesc": "Deficiencias de Servicio por Daños en la Red",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 52,
+    "causdesc": "Agua Contaminada (Olor, Grasa, Sabor, Turbidez, etc)",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 53,
+    "causdesc": "Visita de Viabilidad de redes ALC",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  },
+  {
+    "causcons": 54,
+    "causdesc": "Emergencia Ambiental",
+    "caustipo": 835,
+    "causesta": 2,
+    "caususcr": "rene.acevedo",
+    "causfecr": "2017-01-20 11:16:02",
+    "cocacaus": []
+  }
+]

@@ -1,0 +1,171 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_2"
+    tools:context="org.app.atenciondeturnos.comentarios.FragmentComentarios">
+
+    <!-- TODO: Update blank fragment layout -->
+        <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/verde_2"
+        android:weightSum="3"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnNuevoComentarioTurno"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text="Agregar"
+            />
+        <Button
+            android:id="@+id/btnDescargarComentarioTurno"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text="Descargar"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/verde_2"
+            android:text=""
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginTop="64dp">
+
+        <ListView
+            android:id="@+id/lvComentarioMostrarTurno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00ffffff">
+
+        </ListView>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/formularioComentarioTurno"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@color/azul_4t">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/gris_4"
+            android:padding="6dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/azul_4"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nuevo Comentario"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="19dp"/>
+                <EditText
+                    android:id="@+id/etNumeroComentarioTurno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gris_2"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:editable="false"
+                    android:inputType="number"
+                    android:hint="Numero"/>
+
+                <EditText
+                    android:id="@+id/etComentarioTurno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/gris_2"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:inputType="textMultiLine"
+                    android:minLines="3"
+                    android:hint="Comentario"/>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_gravity="right" >
+
+                    <Button
+                        android:id="@+id/btnRegresarComentarioTurno"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/cir_azul3"
+                        android:drawableRight="@drawable/regresar"
+                        android:padding="8dp"
+                        android:textColor="@color/gris_1" />
+
+                    <Button
+                        android:id="@+id/btnGuardarComentarioTurno"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/cir_verde2"
+                        android:drawableLeft="@drawable/guardar"
+                        android:padding="11dp"
+                        android:textColor="@color/gris_1" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/btnRegresarComentarioTurno"
+                        android:layout_alignBottom="@+id/btnRegresarComentarioTurno"
+                        android:layout_toRightOf="@+id/btnRegresarComentarioTurno"
+                        android:text="Regresar"
+                        android:textColor="@color/gris_1" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/btnGuardarComentarioTurno"
+                        android:layout_alignBottom="@+id/btnGuardarComentarioTurno"
+                        android:layout_toLeftOf="@+id/btnGuardarComentarioTurno"
+                        android:text="Guardar"
+                        android:textColor="@color/gris_1" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

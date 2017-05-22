@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="17.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:orientation="vertical"
+            android:background="@color/azul_4">
+
+            <TextView
+                android:text="Fotografia:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="4dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/camera2"
+                android:scaleType="fitXY"
+                android:id="@+id/imageView2" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:background="@color/azul_4">
+
+            <TextView
+                android:text="Descripción: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:padding="4dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView4" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Descripcion"
+                android:padding="4dp"
+                android:ems="10"
+                android:id="@+id/etDescripcion"
+                android:background="@color/gris_1"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:layout_gravity="right" >
+
+            <Button
+                android:id="@+id/btnRegresarFoto"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/cir_azul3"
+                android:drawableRight="@drawable/regresar"
+                android:padding="8dp"
+                android:textColor="@color/gris_1" />
+
+            <Button
+                android:id="@+id/btnGuardarFoto"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="8dp"
+                android:background="@drawable/cir_verde2"
+                android:drawableLeft="@drawable/guardar"
+                android:padding="11dp"
+                android:textColor="@color/gris_1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnRegresarFoto"
+                android:layout_alignBottom="@+id/btnRegresarFoto"
+                android:layout_toRightOf="@+id/btnRegresarFoto"
+                android:text="Regresar"
+                android:textColor="@color/gris_1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnGuardarFoto"
+                android:layout_alignBottom="@+id/btnGuardarFoto"
+                android:layout_toLeftOf="@+id/btnGuardarFoto"
+                android:text="Guardar"
+                android:textColor="@color/gris_1" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

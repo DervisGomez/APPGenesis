@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/azul_4"
+    android:orientation="vertical"
+    tools:context=".Administrativa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actualizar Parametros"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/gris_1"
+                android:textSize="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servidor Token"
+                android:gravity="left"
+                android:textColor="@color/gris_1"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/txtServerToken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/esq1_gris2"
+                android:layout_margin="8dp"
+                android:inputType="text"
+                android:hint="Servidor Token"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servidor"
+                android:gravity="left"
+                android:textColor="@color/gris_1"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/txtServer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/esq1_gris2"
+                android:layout_margin="8dp"
+                android:inputType="text"
+                android:hint="Servidor"/>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+
+                <Button
+                    android:id="@+id/btnRegresar"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/cir_azul3"
+                    android:drawableRight="@drawable/regresar"
+                    android:padding="8dp"
+                    android:textColor="@color/gris_1"/>
+                <Button
+                    android:id="@+id/btnGuardar"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/cir_verde2"
+                    android:drawableLeft="@drawable/guardar"
+                    android:padding="11dp"
+                    android:textColor="@color/gris_1"/>
+                <TextView android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnRegresar"
+                    android:layout_alignBottom="@+id/btnRegresar"
+                    android:layout_toRightOf="@+id/btnRegresar"
+                    android:text="Regresar"
+                    android:textColor="@color/gris_1"/>
+                <TextView android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnGuardar"
+                    android:layout_alignBottom="@+id/btnGuardar"
+                    android:layout_toLeftOf="@+id/btnGuardar"
+                    android:text="Guardar"
+                    android:textColor="@color/gris_1"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

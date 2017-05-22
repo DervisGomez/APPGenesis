@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Genesis</string>
+    <string name="guardar"><u>Guardar</u></string>
+    <string name="btnNuevaFoto">Nueva Foto</string>
+    <string name="btnDescargarAtributos">Descargar</string>
+    <string name="btnGuardarAtributos">Guardar</string>
+
+    <string name="btnUbicacion">Ubicar</string>
+    <string name="album_name">AppGenesis</string>
+    <string-array name="camera_options">
+        <item>Tomar fotografia</item>
+        <item>Elegir de la galeria</item>
+    </string-array>
+
+    <string-array name="cobro_options">
+        <item>Seleccione un responsable</item>
+        <item>Usuario</item>
+        <item>Contratista</item>
+    </string-array>
+    <string name="title_activity_main_administrador_sql">MainActivityAdministradorSQL</string>
+</resources>

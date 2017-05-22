@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="org.app.atenciondeordenes.MainActivity" >
+
+    <item
+        android:id="@+id/descargar_turnos"
+        android:title="Descargar Turnos"/>
+    <item
+        android:id="@+id/descargar_valvulas"
+        android:title="Descargar Valvalus"/>
+    <item
+        android:id="@+id/descargar_personas_turno"
+        android:title="Descargar Personas"/>
+    <item
+        android:id="@+id/descargar_materiales_turno"
+        android:title="Descargar Materiales"/>
+
+    <item
+        android:id="@+id/preparar_datos_turno"
+        android:title="Preparar Datos"/>
+
+</menu>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.app.atenciondeordenes.DatosOrden">
+    <item
+        android:id="@+id/menuPersona"
+        android:title="Nueva Persona"/>
+    <item
+        android:id="@+id/menuMaterial"
+        android:title="Nuevo Material" />
+</menu>

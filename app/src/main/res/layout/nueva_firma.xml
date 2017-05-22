@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:background="@color/azul_4"
+        android:padding="16dp"
+        android:orientation="vertical"
+        tools:context="org.app.atenciondeordenes.NuevaFIrma">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nueva Firma"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="4dp"
+            android:textSize="19dp"/>
+        <Button
+            android:id="@+id/btnLimpiarFirma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpiar"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llFima"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <EditText
+            android:id="@+id/etDocumentoFirma"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gris_2"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:inputType="number"
+            android:hint="Documento"/>
+
+        <EditText
+            android:id="@+id/etNombreFirma"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gris_2"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:inputType="text"
+            android:hint="Nombre"/>
+    <EditText
+        android:id="@+id/etCorreoFirma"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gris_2"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:inputType="text"
+        android:hint="Correo"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="right" >
+
+            <Button
+                android:id="@+id/btnRegresarFirma"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/cir_azul3"
+                android:drawableRight="@drawable/regresar"
+                android:padding="8dp"
+                android:textColor="@color/gris_1" />
+
+            <Button
+                android:id="@+id/btnGuardarFirma"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="8dp"
+                android:background="@drawable/cir_verde2"
+                android:drawableLeft="@drawable/guardar"
+                android:padding="11dp"
+                android:textColor="@color/gris_1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnRegresarFirma"
+                android:layout_alignBottom="@+id/btnRegresarFirma"
+                android:layout_toRightOf="@+id/btnRegresarFirma"
+                android:text="Regresar"
+                android:textColor="@color/gris_1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btnGuardarFirma"
+                android:layout_alignBottom="@+id/btnGuardarFirma"
+                android:layout_toLeftOf="@+id/btnGuardarFirma"
+                android:text="Guardar"
+                android:textColor="@color/gris_1" />
+
+        </RelativeLayout>
+    </LinearLayout>

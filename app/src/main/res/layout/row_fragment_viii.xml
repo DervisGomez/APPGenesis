@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris_3"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:id="@+id/llMaterial"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="8dp"
+            android:background="@color/gris_1">
+            <ImageButton
+                android:id="@+id/tvTomarFoto"
+                android:layout_width="39dp"
+                android:layout_height="34dp"
+                android:background="@color/gris_1"
+                android:src="@drawable/camera"
+                android:scaleType="centerInside"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:padding="4dp"
+            android:background="@color/gris_1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:id="@+id/tvFecha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:padding="4dp"
+                android:textSize="10sp"
+                android:gravity="center_vertical"
+                android:background="@color/gris_1"/>
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:hint="Ingrese Descripcion"
+                android:textSize="10sp"
+                android:background="@color/gris_1"
+                android:gravity="center_vertical"
+                android:padding="4dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:background="@color/gris_1"
+            android:gravity="center_vertical|center_horizontal"
+>
+
+            <ImageButton
+                android:id="@+id/btnVerFoto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ojo"
+                android:layout_marginRight="8dp"
+                android:background="@color/gris_1"
+                android:scaleType="centerInside"/>
+            <ImageButton
+                android:id="@+id/btnBorrarFoto"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/borrar"
+                android:background="@color/gris_1"
+                android:scaleType="centerInside"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

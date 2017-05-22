@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="org.app.atenciondeordenes.MainActivity" >
+
+    <item
+        android:id="@+id/descargar_orden"
+        android:title="Descargar Ordenes"/>
+
+    <item
+        android:id="@+id/filtrar_ordenes"
+        android:title="Filtrar Ordenes"/>
+    <item
+        android:id="@+id/ordenar_ordenes"
+        android:title="Ordenar Ordenes"/>
+
+</menu>
